@@ -130,7 +130,7 @@ class Favs extends StatelessWidget {
 
     var appState = context.watch<MyAppState>();
 
-    //DBHelper.getAllWords();
+    DBHelper.getAllWords();
 
     if (appState.favs.isEmpty)
     {
